@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <meta charset="utf-8">
+         <title></title>
+         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
+         <script type="text/javascript" src="https://code.angularjs.org/1.2.13/angular-route.min.js"></script>
+         <script  src="js/app.js"></script>
+         <script  src="js/service/post.js" ></script>
+         <script src="js/controller/comments.js"></script>
+         <script src="js/controller/posts.js"></script>
+      </head>
+       <body ng-app="myApp">
+
+          <div ng-show="loading">Chargement ... </div>
+          <div ng-view></div>
+
+     </body>
+     </html>
